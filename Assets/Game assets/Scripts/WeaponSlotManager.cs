@@ -110,11 +110,13 @@ public class WeaponSlotManager : MonoBehaviour
     #region Handle Weapon's Stamina Drainage
     public void DrainStaminaLightAttack()
     {
+        if (playerStats == null) return;
         playerStats.TakeStaminaDamage(Mathf.RoundToInt(attackingWeapon.baseStaminaCost * attackingWeapon.lightAttackMultiplier));
     }
 
     public void DrainStaminaHeavyAttack()
     {
+        if (playerStats == null) return;
         playerStats.TakeStaminaDamage(Mathf.RoundToInt(attackingWeapon.baseStaminaCost * attackingWeapon.heavyAttackMultiplier));
     }
     #endregion

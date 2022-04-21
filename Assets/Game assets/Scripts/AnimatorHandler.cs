@@ -110,7 +110,7 @@ public class AnimatorHandler : MonoBehaviour
 
     private void OnAnimatorMove()
     {
-        if (playerManager.isInteracting == false) return;
+        if (playerManager == null || playerManager.isInteracting == false) return;
 
         float delta = Time.deltaTime;
         locomotion.rigidbody.drag = 0;
