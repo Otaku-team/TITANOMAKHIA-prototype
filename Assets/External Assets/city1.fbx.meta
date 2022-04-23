@@ -1,11 +1,8 @@
 fileFormatVersion: 2
-guid: 5a8616d08be9c6643a52d5d30c21321d
+guid: 40965772393da9044bf75541cdaebc44
 ModelImporter:
   serializedVersion: 21202
-  internalIDToNameTable:
-  - first:
-      74: -5807236461998756539
-    second: Modified rig|Armature|AvatarCurrentMotion|AvatarCurrentMotion
+  internalIDToNameTable: []
   externalObjects: {}
   materials:
     materialImportMode: 2
